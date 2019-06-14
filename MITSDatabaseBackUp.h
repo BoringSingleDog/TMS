@@ -20,7 +20,7 @@ public slots:
 	void mousePressEvent(QMouseEvent *event);
 	void mouseMoveEvent(QMouseEvent *);
 	void mouseReleaseEvent(QMouseEvent *);
-	void doChooseFile();
+	void doChooseFileByIndex();
 	void doUploadFile();
 	void doBackUp();
 	void doRecover();
