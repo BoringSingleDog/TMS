@@ -25,6 +25,7 @@ public slots:
 	void doBackUp();
 	void doRecover();
 	void doDealAction();
+	void showBestPlan();
 	
 private:
 	Ui::MITSDatabaseBackUp ui;
