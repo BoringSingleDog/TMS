@@ -28,8 +28,12 @@ MITSDatabaseBackUp::MITSDatabaseBackUp(QWidget *parent)
 	connect(ui.pb_BackUp,SIGNAL(clicked()),this,SLOT(doBackUp()));
 	connect(ui.pb_Recover,SIGNAL(clicked()),this,SLOT(doRecover()));
 	connect(downLoad,SIGNAL(triggered()),this,SLOT(doDealAction()));
-	connect(deleteListButton,SIGNAL(triggered()),this,SLOT(doDealAction()));
+<<<<<<< HEAD
+	connect(deleteList,SIGNAL(triggered()),this,SLOT(doDealAction()));
 	
+=======
+	connect(deleteList,SIGNAL(triggered()),this,SLOT(doDealAction()));
+>>>>>>> brachCreate
 }
 
 MITSDatabaseBackUp::~MITSDatabaseBackUp()
