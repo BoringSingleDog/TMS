@@ -29,6 +29,7 @@ MITSDatabaseBackUp::MITSDatabaseBackUp(QWidget *parent)
 	connect(ui.pb_Recover,SIGNAL(clicked()),this,SLOT(doRecover()));
 	connect(downLoad,SIGNAL(triggered()),this,SLOT(doDealAction()));
 	connect(deleteList,SIGNAL(triggered()),this,SLOT(doDealAction()));
+	
 }
 
 MITSDatabaseBackUp::~MITSDatabaseBackUp()
