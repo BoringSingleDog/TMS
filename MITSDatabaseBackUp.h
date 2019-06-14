@@ -17,7 +17,7 @@ public:
 	void doAddListWIdgetItem(QString );
 
 public slots:
-	void mousePressEvent(QMouseEvent *);
+	void mousePressEvent(QMouseEvent *event);
 	void mouseMoveEvent(QMouseEvent *);
 	void mouseReleaseEvent(QMouseEvent *);
 	void doChooseFile();
